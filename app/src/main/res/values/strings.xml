@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">GerirHospital_V2</string>
+    <string name="pacientes">Pacientes</string>
+    <string name="medicos">Medicos</string>
+    <string name="material">Material</string>
+    <string name="despesas">Despesas</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_pacientes">Pacientes</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="infetado">Infetado</string>
+    <string name="nome">Nome</string>
+    <string name="nif">NIF</string>
+    <string name="data_nascimetno">Data Nascimetno</string>
+    <string name="nacionalidade">Nacionalidade</string>
+    <string name="morada">Morada</string>
+    <string name="distrito">Distrito</string>
+    <string name="concelho">Concelho</string>
+    <string name="cidade">Cidade</string>
+    <string name="problemas_de_saude">Problemas de Saude</string>
+    <string name="gravar">Gravar</string>
+    <string name="ordenado">Ordenado</string>
+    <string name="n_telemovel">Nº Telemovel</string>
+    <string name="contacto">Contacto</string>
+    <string name="numero_de_camas">Numero de Camas</string>
+    <string name="numero_de_oculos">Numero de Oculos</string>
+    <string name="numero_de_luvas">Numero de Luvas</string>
+    <string name="numero_de_mascaras">Numero de Mascaras</string>
+    <string name="numero_de_ventiladores">Numero de Ventiladores</string>
+    <string name="custos">Custos</string>
+    <string-array name="Sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+</resources>

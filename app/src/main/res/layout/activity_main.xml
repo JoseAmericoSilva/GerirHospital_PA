@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonPacientes"
+        android:layout_width="162dp"
+        android:layout_height="67dp"
+        android:onClick="botaoPaciente"
+        android:text="@string/pacientes"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMedicos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonMedicos"
+        android:layout_width="162dp"
+        android:layout_height="67dp"
+        android:onClick="buttonMedicos"
+        android:text="@string/medicos"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMaterial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPacientes" />
+
+    <Button
+        android:id="@+id/buttonMaterial"
+        android:layout_width="162dp"
+        android:layout_height="67dp"
+        android:onClick="botaoMaterial"
+        android:text="@string/material"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDespesas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMedicos" />
+
+    <Button
+        android:id="@+id/buttonDespesas"
+        android:layout_width="162dp"
+        android:layout_height="67dp"
+        android:onClick="botaoDespesas"
+        android:text="@string/despesas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMaterial" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="731dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/covid19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
