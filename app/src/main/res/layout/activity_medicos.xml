@@ -22,6 +22,7 @@
                 android:layout_gravity="center">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/EditTextNome"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="@string/nome" />
@@ -46,7 +47,8 @@
                 android:layout_width="350dp"
                 android:layout_height="47dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:spinnerMode="dialog" />
 
 
             <com.google.android.material.textfield.TextInputLayout

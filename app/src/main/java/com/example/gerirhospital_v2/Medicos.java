@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 public class Medicos extends AppCompatActivity {
     Spinner genero;
+    Button btn_Gravar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,5 +22,10 @@ public class Medicos extends AppCompatActivity {
 
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this,R.array.Sexo,android.R.layout.simple_spinner_item);
         genero.setAdapter(adapter);
+
+
+    }
+    public void inicializarObjetos(){
+    //    et_codigo = (EditText) findViewById(R.id.EditTextNome);
     }
 }
